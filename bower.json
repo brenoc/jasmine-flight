@@ -1,6 +1,6 @@
 {
   "name": "jasmine-flight-standalone",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Fork of jasmine-flight for Flight Standalone",
   "main": "lib/jasmine-flight.js",
   "keywords": [

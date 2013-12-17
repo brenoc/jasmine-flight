@@ -1,6 +1,6 @@
 {
   "name": "jasmine-flight-standalone",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "devDependencies": {
     "karma": "~0.10.1",
     "karma-jasmine": "~0.1.0",
