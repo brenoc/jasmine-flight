@@ -1,13 +1,7 @@
-define(function (require) {
-  'use strict';
+'use strict';
 
-  var defineComponent = require('flight/lib/component');
-
-  function Example() {
-    this.defaultAttrs({
-      param: 'defaultParam'
-    });
-  }
-
-  return defineComponent(Example);
+var Example = flight.component(function() {
+  this.defaultAttrs({
+    param: 'defaultParam'
+  });
 });

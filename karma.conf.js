@@ -17,6 +17,7 @@ module.exports = function (config) {
       'bower_components/es5-shim/es5-shim.js',
       'bower_components/es5-shim/es5-sham.js',
       'bower_components/jquery/jquery.js',
+      'bower_components/flight-standalone/flight.min.js',
 
       'bower_components/jasmine-jquery/lib/jasmine-jquery.js',
       'lib/jasmine-flight.js',
@@ -26,7 +27,7 @@ module.exports = function (config) {
       'node_modules/karma-requirejs/lib/adapter.js',
 
       {pattern: 'bower_components/flight/**/*.js', included: false},
-      {pattern: 'test/mock/*.js', included: false},
+      {pattern: 'test/mock/*.js', included: true},
       {pattern: 'test/spec/*.js', included: false},
 
       'test/test-main.js'

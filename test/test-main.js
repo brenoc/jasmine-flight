@@ -9,7 +9,6 @@ requirejs.config({
   baseUrl: '/base',
 
   paths: {
-    'flight': 'bower_components/flight',
     'mock': 'test/mock'
   },
 
